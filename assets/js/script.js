@@ -56,7 +56,7 @@ $(document).ready(function () {
 
 });
 
-document.addEventListener('visibilitychange',
+document.addEventListener('visibilitychange',   
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Sanny Garin";
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Data Analytics", "Data Science", "Data Warehousing","Data Engineering"],
+    strings: ["Data Analytics", "Data Science" ,"Data Warehousing", "Data Engineering" ],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -89,6 +89,48 @@ async function fetchData(type = "skills") {
     return data;
 }
 
+async function fetchDataLang(type = "skills") {
+    let response
+    type === "skills" ?
+        response = await fetch("skills_lang.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
+}
+
+async function fetchDatadb(type = "skills") {
+    let response
+    type === "skills" ?
+        response = await fetch("skillsdb.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
+}
+
+async function fetchDatabigdata(type = "skills") {
+    let response
+    type === "skills" ?
+        response = await fetch("skillsbigdata.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
+}
+
+async function fetchDatabi(type = "skills") {
+    let response
+    type === "skills" ?
+        response = await fetch("skillsbi.json")
+        :
+        response = await fetch("./projects/projects.json")
+    const data = await response.json();
+    return data;
+}
+
+
+
 function showSkills(skills) {
     let skillsContainer = document.getElementById("skillsContainer");
     let skillHTML = "";
@@ -104,13 +146,73 @@ function showSkills(skills) {
     skillsContainer.innerHTML = skillHTML;
 }
 
+function showSkillsLang(skills_lang) {
+    let skillsContainer = document.getElementById("skillsContainerLang");
+    let skillHTML = "";
+    skills_lang.forEach(skill_lang => {
+        skillHTML += `
+        <div class="bar">
+              <div class="info">
+                <img src=${skill_lang.icon} alt="skill" />
+                <span>${skill_lang.name}</span>
+              </div>
+            </div>` 
+    });
+    skillsContainer.innerHTML = skillHTML;
+}
+
+function showSkillsdb(skills_db) {
+    let skillsContainer = document.getElementById("skillsContainerdb");
+    let skillHTML = "";
+    skills_db.forEach(skill_db => {
+        skillHTML += `
+        <div class="bar">
+              <div class="info">
+                <img src=${skill_db.icon} alt="skill" />
+                <span>${skill_db.name}</span>
+              </div>
+            </div>` 
+    });
+    skillsContainer.innerHTML = skillHTML;
+}
+
+function showSkillsbigdata(skills_bigdata) {
+    let skillsContainer = document.getElementById("skillsContainerbigdata");
+    let skillHTML = "";
+    skills_bigdata.forEach(skill_bigdata => {
+        skillHTML += `
+        <div class="bar">
+              <div class="info">
+                <img src=${skill_bigdata.icon} alt="skill" />
+                <span>${skill_bigdata.name}</span>
+              </div>
+            </div>` 
+    });
+    skillsContainer.innerHTML = skillHTML;
+}
+
+function showSkillsbi(skillsbi) {
+    let skillsContainer = document.getElementById("skillsContainerbi");
+    let skillHTML = "";
+    skillsbi.forEach(skillbi => {
+        skillHTML += `
+        <div class="bar">
+              <div class="info">
+                <img src=${skillbi.icon} alt="skill" />
+                <span>${skillbi.name}</span>
+              </div>
+            </div>` 
+    });
+    skillsContainer.innerHTML = skillHTML;
+}
+
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="./assets/images/projects/${project.image}.jpg" alt="project" />
+      <img draggable="false" src="./assets/images/projects/${project.image}.jpg" alt="project">
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -149,6 +251,24 @@ function showProjects(projects) {
 fetchData().then(data => {
     showSkills(data);
 });
+
+fetchDataLang().then(data => {
+    showSkillsLang(data);
+});
+
+fetchDatadb().then(data => {
+    showSkillsdb(data);
+});
+
+fetchDatabigdata().then(data => {
+    showSkillsbigdata(data);
+});
+
+fetchDatabi().then(data => {
+    showSkillsbi(data);
+});
+
+
 
 fetchData("projects").then(data => {
     showProjects(data);
@@ -193,7 +313,7 @@ document.onkeydown = function (e) {
     }
 }
 
-// // // Start of Tawk.to Live Chat
+// // Start of Tawk.to Live Chat
 // var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 // (function () {
 //     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
@@ -203,7 +323,7 @@ document.onkeydown = function (e) {
 //     s1.setAttribute('crossorigin', '*');
 //     s0.parentNode.insertBefore(s1, s0);
 // })();
-// // // End of Tawk.to Live Chat
+// // End of Tawk.to Live Chat
 
 
 // <!--Start of Tawk.to Script-->
