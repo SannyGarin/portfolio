@@ -19,5 +19,15 @@
       "view": "https://medium.com/@garin.sanny07/querying-data-in-nosql-databases-938d83aa4a62",
       "code": "https://github.com/SannyGarin/ibm_data_engineering_project/tree/main/data/Module%202%20Querying%20Data%20in%20NoSQL"
     }
+  },
+  {
+    "name": "Data Warehouse Design & Setup",
+    "desc": "This Project aims to showcase my skill on designing and Relational Database Management System using PostgreSQL.",
+    "image": "postgresql",
+    "category": "data_eng",
+    "links": {
+      "view": "https://medium.com/@garin.sanny07/data-warehouse-design-setup-48bcdd5a05fb",
+      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/tree/main/data/Module%203%20Data%20Warehouse"
+    }
   }
 ]
