@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Hadoop",
+        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/96/apache_pig_logo_icon_169582.png"  
+    },
+    {
+        "name": "Apache Spark",
+        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/96/apache_spark_logo_icon_170561.png"  
+    },
+    {
+        "name": "Apache Kafka",
+        "icon": "https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000"  
+    },
+    {
+        "name": "Apache Airflow",
+        "icon": "https://cwiki.apache.org/confluence/download/attachments/145723561/airflow_64x64_emoji_transparent.png?api=v2"  
+    }   
+]                  
