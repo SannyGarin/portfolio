@@ -1,0 +1,31 @@
+
+
+[
+
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+    {
+        "name": "Numpy",
+        "icon": "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000"
+    },
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000"
+    },
+    {
+        "name": "SQL",
+        "icon": "https://img.icons8.com/?size=100&id=59952&format=png&color=000000"  
+    },
+    {
+        "name": "Bash",
+        "icon": "https://img.icons8.com/?size=100&id=52515&format=png&color=000000"
+    },
+    {
+        "name": "R",
+        "icon": "https://img.icons8.com/?size=100&id=CLvQeiwFpit4&format=png&color=000000"
+    }                    
+]                  
+
+
