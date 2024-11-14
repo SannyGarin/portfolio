@@ -1,0 +1,19 @@
+[
+
+    {
+        "name": "Tableau",
+        "icon": "https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000"  
+    },
+    {
+        "name": "Power BI",
+        "icon": "https://img.icons8.com/?size=100&id=70667&format=png&color=000000"  
+    }, 
+    {
+        "name": "Google Looker",
+        "icon": "https://img.icons8.com/?size=100&id=SruJhzn0nnLl&format=png&color=000000"  
+    },
+    {
+        "name": "Cognos",
+        "icon": "https://img.icons8.com/?size=100&id=69456&format=png&color=000000"
+    }                 
+]                  
