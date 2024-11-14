@@ -3,7 +3,7 @@
   {
     "name": "OLTP Database MySQL",
     "desc": "Creating Simple OLTP Database using MySQL",
-    "image": "oltp_mysql",
+    "image": "oltp_mysql.jpg",
     "category": "data_eng",
     "links": {
       "view": "https://medium.com/@garin.sanny07/creating-simple-oltp-database-using-mysql-8eea6fa3197d",
@@ -13,7 +13,7 @@
   {
     "name": "NoSQL Database",
     "desc": "This Project aims to showcase my skill on accessing NoSQL database like MongoDB",
-    "image": "mongodb",
+    "image": "mongodb.jpg",
     "category": "data_eng",
     "links": {
       "view": "https://medium.com/@garin.sanny07/querying-data-in-nosql-databases-938d83aa4a62",
@@ -22,12 +22,23 @@
   },
   {
     "name": "Data Warehouse Design & Setup",
-    "desc": "This Project aims to showcase my skill on designing Relational Database Management System using PostgreSQL.",
-    "image": "postgresql",
+    "desc": "This Project aims to showcase my skill on designing and Relational Database Management System using PostgreSQL.",
+    "image": "postgresql.jpg",
     "category": "data_eng",
     "links": {
       "view": "https://medium.com/@garin.sanny07/data-warehouse-design-setup-48bcdd5a05fb",
       "code": "https://github.com/SannyGarin/ibm_data_engineering_project/tree/main/data/Module%203%20Data%20Warehouse"
     }
+  },
+  {
+    "name": "ETL pipeline Project",
+    "desc": "This Project aims to showcase my skill on creating a simple ETL pipeline and automate it using Python.",
+    "image": "etl.gif",
+    "category": "data_eng",
+    "links": {
+      "view": "https://medium.com/@garin.sanny07/etl-project-4e5ade901527",
+      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/Module%205%20ETL/automation.py"
+    }
   }
 ]
+
