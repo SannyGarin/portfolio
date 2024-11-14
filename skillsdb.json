@@ -1,0 +1,26 @@
+[
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
+    },
+    {
+        "name": "MSSQL Server",
+        "icon": "https://img.icons8.com/?size=100&id=laYYF3dV0Iew&format=png&color=000000"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    {
+        "name": "Cassandra",
+        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/96/apache_cassandra_logo_icon_170572.png"
+    },
+    {
+        "name": "db2 on Cloud",
+        "icon": "https://img.icons8.com/?size=100&id=69456&format=png&color=000000"
+    }          
+]                  
