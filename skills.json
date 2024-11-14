@@ -1,65 +1,19 @@
 [
-
     {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+        "name": "Jupyter",
+        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/96/jupyter_logo_icon_169452.png"
+    },   
+    {
+        "name": "VS Code",
+        "icon": "https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"
     },
     {
-        "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-    },
-    {
-        "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-        "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
-    },
-    {
-        "name": "AWS",
-        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+        "name": "Excel",
+        "icon": "https://img.icons8.com/?size=100&id=13654&format=png&color=000000"
     },
     {
         "name": "GitHub",
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    }, 
-    {
-        "name": "Jupyter",
-        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/96/jupyter_logo_icon_169452.png"
-    },
-    {
-        "name": "Hadoop",
-        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/96/apache_pig_logo_icon_169582.png"  
-    },
-    {
-        "name": "Apache Spark",
-        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/96/apache_spark_logo_icon_170561.png"  
-    },
-    {
-        "name": "Apache Kafka",
-        "icon": "https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000"  
-    },
-    {
-        "name": "SQL",
-        "icon": "https://img.icons8.com/?size=100&id=59952&format=png&color=000000"  
-    },
-    {
-        "name": "Bash",
-        "icon": "https://img.icons8.com/?size=100&id=52515&format=png&color=000000"
-    },
-    {
-        "name": "IBM db2",
-        "icon": "https://img.icons8.com/?size=100&id=69456&format=png&color=000000"
-    },
-    {
-        "name": "Airflow",
-        "icon": "https://cwiki.apache.org/confluence/download/attachments/145723561/airflow_64x64_emoji_transparent.png?api=v2"  
-    },
-    {
-        "name": "Cassandra",
-        "icon": "https://cdn.icon-icons.com/icons2/2699/PNG/96/apache_cassandra_logo_icon_170572.png"
-    }                 
+    }                    
 ]                  
-
 
