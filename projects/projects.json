@@ -39,7 +39,7 @@
       "view": "https://medium.com/@garin.sanny07/etl-project-4e5ade901527",
       "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/Module%205%20ETL/automation.py"
     }
-  }
+  },
     {
     "name": "Data Pipelines using Apache Airflow",
     "desc": "This Project aims to showcase my skill on using Apache Airflow in a basic data pipeline with Python and Bash scripting.",
