@@ -67,7 +67,7 @@
     }
   },
   {
-    "name": "Simple Web Scraping Project",
+    "name": "Simple Web Scraping Project using APIs",
     "desc": "This Projects aims to showcase my skills on utilizing BeautifulSoup library, Pandas, and SQLite to make a simple ETL.",
     "image": "webscraping",
     "type": "gif",
