@@ -65,5 +65,16 @@
       "view": "https://medium.com/@garin.sanny07/big-data-analytics-with-spark-321a5fead8bc",
       "code": "https://github.com/SannyGarin/ibm_data_engineering_project/tree/main/data/Module%206%20Big%20Data%20Analytics%20with%20Spark"
     }
+  },
+  {
+    "name": "Simple Web Scraping Project",
+    "desc": "This Projects aims to showcase my skills on utilizing BeautifulSoup library, Pandas, and SQLite to make a simple ETL.",
+    "image": "webscraping",
+    "type": "gif",
+    "category": "data_eng",
+    "links": {
+      "view": "https://medium.com/@garin.sanny07/simple-web-scraping-project-cd9ed4ddc0f6",
+      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/3.%20Python%20Project%20for%20Data%20Engineering/ETL_exercise_Webscraping/webscraping.py"
+    }
   }
 ]
