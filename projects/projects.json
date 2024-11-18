@@ -67,7 +67,7 @@
     }
   },
   {
-    "name": "Simple Web Scraping Project using APIs",
+    "name": "Simple Web Scraping Project",
     "desc": "This Projects aims to showcase my skills on utilizing BeautifulSoup library, Pandas, and SQLite to make a simple ETL.",
     "image": "webscraping",
     "type": "gif",
@@ -75,6 +75,17 @@
     "links": {
       "view": "https://medium.com/@garin.sanny07/simple-web-scraping-project-cd9ed4ddc0f6",
       "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/3.%20Python%20Project%20for%20Data%20Engineering/ETL_exercise_Webscraping/webscraping.py"
+    }
+  },
+  {
+    "name": "ETL Project Using Python",
+    "desc": "This is a Final Project from a Coursera Specialization “Python Project for Data Engineering”. This project will use real-world data and perform the operations of Extraction, Transformation, and Loading (ETL).",
+    "image": "etl_python",
+    "type": "jpg",
+    "category": "data_eng",
+    "links": {
+      "view": "https://medium.com/@garin.sanny07/etl-project-using-python-d0446d3a2506",
+      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/3.%20Python%20Project%20for%20Data%20Engineering/Final%20Project/banks_project.py"
     }
   }
 ]
