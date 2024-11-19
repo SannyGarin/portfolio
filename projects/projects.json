@@ -87,5 +87,27 @@
       "view": "https://medium.com/@garin.sanny07/etl-project-using-python-d0446d3a2506",
       "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/3.%20Python%20Project%20for%20Data%20Engineering/Final%20Project/banks_project.py"
     }
+  },
+  {
+    "name": "Deploying Hadoop using Docker",
+    "desc": "This Project aims to familiarize myself to Hadoop Cluster and how to create an instance of it  using Docker",
+    "image": "hadoop",
+    "type": "jpg",
+    "category": "data_eng",
+    "links": {
+      "view": "https://medium.com/@garin.sanny07/hadoop-cluster-55477505d0ff",
+      "code": "https://medium.com/@garin.sanny07/hadoop-cluster-55477505d0ff"
+    }
+  },
+  {
+    "name": "ETL Data Pipelines with PythonOperator using Apache Airflow",
+    "desc": "This Project aims to showcase my skill on using Apache Airflow in a basic data pipeline with PythonOperator.",
+    "image": "PythonOperator",
+    "type": "jpg",
+    "category": "data_eng",
+    "links": {
+      "view": "https://medium.com/@garin.sanny07/etl-data-pipelines-with-pythonoperator-using-apache-airflow-f612eadffe7f",
+      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/ETL%20Pipeline%20using%20PythonOperator%20with%20Apache%20Airflow/ETL_toll_data.py"
+    }
   }
 ]
