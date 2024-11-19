@@ -111,17 +111,6 @@
     }
   },
   {
-    "name": "ETL Data Pipelines with PythonOperator using Apache Airflow",
-    "desc": "This Project aims to showcase my skill on using Apache Airflow in a basic data pipeline with PythonOperator.",
-    "image": "PythonOperator",
-    "type": "jpg",
-    "category": "data_eng",
-    "links": {
-      "view": "https://medium.com/@garin.sanny07/etl-data-pipelines-with-pythonoperator-using-apache-airflow-f612eadffe7f",
-      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/ETL%20Pipeline%20using%20PythonOperator%20with%20Apache%20Airflow/ETL_toll_data.py"
-    }
-  },
-  {
     "name": "Build a Streaming ETL Pipeline using Kafka",
     "desc": "This Project aims to showcase my skill on creating an Apache Kafka instance and generate a streaming data and save the data to MySQL server database",
     "image": "kafka",
