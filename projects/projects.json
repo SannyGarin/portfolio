@@ -24,7 +24,7 @@
   },
   {
     "name": "Data Warehouse Design & Setup",
-    "desc": "This Project aims to showcase my skill on designing and Relational Database Management System using PostgreSQL.",
+    "desc": "This Project aims to showcase my skill on designing a Relational Database Management System (RDBMS) using PostgreSQL.",
     "image": "postgresql",
     "type": "jpg",
     "category": "data_eng",
