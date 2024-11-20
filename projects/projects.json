@@ -45,17 +45,6 @@
     }
   },
   {
-    "name": "Data Pipelines using Apache Airflow",
-    "desc": "This Project aims to showcase my skill on using Apache Airflow in a basic data pipeline with Python and Bash scripting.",
-    "image": "airflow",
-    "type": "jpg",
-    "category": "data_eng",
-    "links": {
-      "view": "https://medium.com/@garin.sanny07/data-pipelines-using-apache-airflow-b3aee86cfeda",
-      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/Module%205%20Apache%20Airflow/process_web_log.py"
-    }
-  },
-  {
     "name": "Big Data Analytics with Spark",
     "desc": "This Project aims to showcase my skill on using Apache Spark Dataframe and pre-trained Machine Learning model to predict a metrics like Sales from a previous year.",
     "image": "spark",
@@ -79,7 +68,7 @@
   },
   {
     "name": "ETL Project Using Python",
-    "desc": "This is a Final Project from a Coursera Specialization “Python Project for Data Engineering”.",
+    "desc": "This is a Final Project from a Coursera Specialization Course “Python Project for Data Engineering”.",
     "image": "etl_python",
     "type": "jpg",
     "category": "data_eng",
@@ -100,7 +89,7 @@
     }
   },
   {
-    "name": "ETL Data Pipelines with PythonOperator using Apache Airflow",
+    "name": "Apache Airflow ETL Pipeline using PythonOperator",
     "desc": "This Project aims to showcase my skill on using Apache Airflow in a basic data pipeline with PythonOperator.",
     "image": "PythonOperator",
     "type": "jpg",
@@ -119,6 +108,17 @@
     "links": {
       "view": "https://medium.com/@garin.sanny07/build-a-streaming-etl-pipeline-using-kafka-77aba29caa94",
       "code": "https://github.com/SannyGarin/ibm_data_engineering_project/tree/main/data/Build%20a%20Streaming%20ETL%20Pipeline%20using%20Kafka"
+    }
+  },
+  {
+    "name": "Simple Data Pipeline using Apache Airflow",
+    "desc": "This Project aims to showcase my skill on using Apache Airflow in a basic data pipeline with Python and Bash scripting.",
+    "image": "airflow",
+    "type": "jpg",
+    "category": "data_eng",
+    "links": {
+      "view": "https://medium.com/@garin.sanny07/data-pipelines-using-apache-airflow-b3aee86cfeda",
+      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/Module%205%20Apache%20Airflow/process_web_log.py"
     }
   }
 ]
