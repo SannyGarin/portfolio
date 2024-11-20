@@ -120,5 +120,16 @@
       "view": "https://medium.com/@garin.sanny07/data-pipelines-using-apache-airflow-b3aee86cfeda",
       "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/Module%205%20Apache%20Airflow/process_web_log.py"
     }
+  },
+  {
+    "name": "ETL Data Pipelines with BashOperator using Apache Airflow",
+    "desc": "This Project aims to showcase my skill on using Apache Airflow in a basic data pipeline with BashOperator.",
+    "image": "BashOperator",
+    "type": "gif",
+    "category": "data_eng",
+    "links": {
+      "view": "https://medium.com/@garin.sanny07/etl-data-pipelines-with-bashoperator-using-apache-airflow-bcdb463f35ed",
+      "code": "https://github.com/SannyGarin/ibm_data_engineering_project/blob/main/data/ETL%20Data%20Pipelines%20with%20BashOperator%20using%20Apache%20Airflow/ETL_toll_data.py"
+    }
   }
 ]
