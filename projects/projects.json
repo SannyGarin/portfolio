@@ -79,7 +79,7 @@
   },
   {
     "name": "ETL Project Using Python",
-    "desc": "This is a Final Project from a Coursera Specialization “Python Project for Data Engineering”. This project will use real-world data and perform the operations of Extraction, Transformation, and Loading (ETL).",
+    "desc": "This is a Final Project from a Coursera Specialization “Python Project for Data Engineering”.",
     "image": "etl_python",
     "type": "jpg",
     "category": "data_eng",
