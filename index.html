@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Sanny sable, portfolio, Sanny, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
     <meta name="description" content="Welcome to Sanny's Portfolio" />
+
+    <!-- Custom dark CSS
+    <link rel="stylesheet" href="./assets/css/style_dark.css"> -->
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link id="theme-link" rel="stylesheet" href="./assets/css/style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
@@ -16,6 +19,8 @@
 </head>
 <body oncontextmenu="return false">
 
+  
+
 <!-- pre loader -->
 <div class="loader-container">
   <img draggable="false" src="./assets/images/preloader.gif" alt="">
@@ -23,11 +28,166 @@
 
 <!-- navbar starts -->
 <header>
-        <a href="./" class="logo"><i class="fab fa-node-js"></i> Sanny</a>
+        
+        <a href="./" class="logo"><i class="fab fa-node-js"></i> Sanny</a> 
+
+        <link rel="stylesheet" href="./assets/css/toggle.css" />
+        <input type="checkbox"  id="darkmode-toggle" />
+        <label for="darkmode-toggle">
+          <svg
+            version="1.1"
+            class="sun"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 496 496"
+            style="enable-background: new 0 0 496 496"
+            xml:space="preserve"
+          >
+            <rect
+              x="152.994"
+              y="58.921"
+              transform="matrix(0.3827 0.9239 -0.9239 0.3827 168.6176 -118.5145)"
+              width="40.001"
+              height="16"
+            />
+            <rect
+              x="46.9"
+              y="164.979"
+              transform="matrix(0.9239 0.3827 -0.3827 0.9239 71.29 -12.4346)"
+              width="40.001"
+              height="16"
+            />
+            <rect
+              x="46.947"
+              y="315.048"
+              transform="matrix(0.9239 -0.3827 0.3827 0.9239 -118.531 50.2116)"
+              width="40.001"
+              height="16"
+            />
+        
+            <rect
+              x="164.966"
+              y="409.112"
+              transform="matrix(-0.9238 -0.3828 0.3828 -0.9238 168.4872 891.7491)"
+              width="16"
+              height="39.999"
+            />
+        
+            <rect
+              x="303.031"
+              y="421.036"
+              transform="matrix(-0.3827 -0.9239 0.9239 -0.3827 50.2758 891.6655)"
+              width="40.001"
+              height="16"
+            />
+        
+            <rect
+              x="409.088"
+              y="315.018"
+              transform="matrix(-0.9239 -0.3827 0.3827 -0.9239 701.898 785.6559)"
+              width="40.001"
+              height="16"
+            />
+        
+            <rect
+              x="409.054"
+              y="165.011"
+              transform="matrix(-0.9239 0.3827 -0.3827 -0.9239 891.6585 168.6574)"
+              width="40.001"
+              height="16"
+            />
+            <rect
+              x="315.001"
+              y="46.895"
+              transform="matrix(0.9238 0.3828 -0.3828 0.9238 50.212 -118.5529)"
+              width="16"
+              height="39.999"
+            />
+            <path
+              d="M248,88c-88.224,0-160,71.776-160,160s71.776,160,160,160s160-71.776,160-160S336.224,88,248,88z M248,392
+                c-79.4,0-144-64.6-144-144s64.6-144,144-144s144,64.6,144,144S327.4,392,248,392z"
+            />
+            <rect x="240" width="16" height="72" />
+            <rect
+              x="62.097"
+              y="90.096"
+              transform="matrix(0.7071 0.7071 -0.7071 0.7071 98.0963 -40.6334)"
+              width="71.999"
+              height="16"
+            />
+            <rect y="240" width="72" height="16" />
+        
+            <rect
+              x="90.091"
+              y="361.915"
+              transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -113.9157 748.643)"
+              width="16"
+              height="71.999"
+            />
+            <rect x="240" y="424" width="16" height="72" />
+        
+            <rect
+              x="361.881"
+              y="389.915"
+              transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 397.8562 960.6281)"
+              width="71.999"
+              height="16"
+            />
+            <rect x="424" y="240" width="72" height="16" />
+            <rect
+              x="389.911"
+              y="62.091"
+              transform="matrix(0.7071 0.7071 -0.7071 0.7071 185.9067 -252.6357)"
+              width="16"
+              height="71.999"
+            />
+          </svg>
+          <svg
+            version="1.1"
+            class="moon"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 49.739 49.739"
+            style="enable-background: new 0 0 49.739 49.739"
+            xml:space="preserve"
+          >
+            <path
+              d="M25.068,48.889c-9.173,0-18.017-5.06-22.396-13.804C-3.373,23.008,1.164,8.467,13.003,1.979l2.061-1.129l-0.615,2.268
+              c-1.479,5.459-0.899,11.25,1.633,16.306c2.75,5.493,7.476,9.587,13.305,11.526c5.831,1.939,12.065,1.492,17.559-1.258v0
+              c0.25-0.125,0.492-0.258,0.734-0.391l2.061-1.13l-0.585,2.252c-1.863,6.873-6.577,12.639-12.933,15.822
+              C32.639,48.039,28.825,48.888,25.068,48.889z M12.002,4.936c-9.413,6.428-12.756,18.837-7.54,29.253
+              c5.678,11.34,19.522,15.945,30.864,10.268c5.154-2.582,9.136-7.012,11.181-12.357c-5.632,2.427-11.882,2.702-17.752,0.748
+              c-6.337-2.108-11.473-6.557-14.463-12.528C11.899,15.541,11.11,10.16,12.002,4.936z"
+            />
+          </svg>
+        </label>
+        
+        
+        <script>
+          const themeToggle = document.getElementById('darkmode-toggle');
+          const themeLink = document.getElementById('theme-link');
+        
+          themeToggle.addEventListener('change', () => {
+            if (themeToggle.checked) {
+              themeLink.href = './assets/css/style_dark.css';
+            } else {
+              themeLink.href = './assets/css/style.css';
+            }
+          });
+        </script>
+
+
 
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
+        
+
             <ul>
+              
             <li><a class="active" href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -35,9 +195,19 @@
             <li><a href="#work">Work</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
+             
             </ul>
+
+
+
         </nav>
+
+           
 </header>
+
+
+
+
 <!-- navbar ends -->
 
 
@@ -60,7 +230,7 @@
       </div>
     </div>
 <div class="image">
-    <img draggable="false" class="tilt" src="./assets/images/profile.png" alt="">
+    <img draggable="false" class="tilt" src="./assets/images/profile_nb.png" alt="">
 </div>
 </section>
 <!-- hero section ends -->
@@ -82,7 +252,7 @@
         <p>I am a Data Professional based in Metro Manila, Philippines. 
           I am passionate about working with data and I'm exited how it revolutionize the world today. 
           I build ETL pipeline projects and familiarize myself to different types of databases.
-          I'm very interested about data engineering, data science, and anything related with the use of data in this modern day!</p>
+          I'm in a journey right now to become a Data Engineer!. </p>
         
         <div class="box-container">
             <!-- <div class="box">
@@ -299,7 +469,7 @@
       
       <div class="form-group">
         <div class="field">
-          <input type="text" name="name" placeholder="Name" required>
+          <input type="text"  name="name" placeholder="Name" required>
           <i class='fas fa-user'></i>
         </div>
         <div class="field">
